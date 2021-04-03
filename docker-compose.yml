@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  tron-power:
+    container_name: tron-power
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tron-power
+    ports:
+      - "$PORT:$PORT"
+    env_file: .env
+    restart: always

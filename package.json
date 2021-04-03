@@ -1,0 +1,27 @@
+{
+  "name": "trying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pthor11/trying.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pthor11/trying/issues"
+  },
+  "homepage": "https://github.com/pthor11/trying#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
